@@ -7,6 +7,46 @@
   pointer-events: none;
 }
 
+.login-screen {
+  background-color: white;
+  width: 30%;
+  height: 50vmin;
+  display: flex;
+  padding: 20px;
+  flex-flow: column;
+}
+.login-segments {
+  display: flex;
+  flex: 1 2 50%;
+  flex-flow: column;
+}
+
+.login-button {
+  height: 45px;
+  color: black;
+
+  background-color: wheat;
+  font-size: 16px;
+}
+.errorMsg {
+  color: #cc0000;
+  /* margin-bottom: 12px; */
+  text-align: left;
+  font-size: 12px;
+}
+
+.login-segments .top {
+  flex: 1 3 33%;
+}
+.input-login {
+  /* flex: 1 3 30%; */
+  height: 38px;
+  margin: 10px 0 10px 0;
+  padding: 0 0 0 10px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
